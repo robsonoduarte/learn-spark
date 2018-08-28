@@ -12,4 +12,5 @@ object RatingsCounterScala extends App {
       .toSeq
       .sortBy(_._1)
       .foreach(println)
+
 }
