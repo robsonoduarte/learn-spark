@@ -15,4 +15,5 @@ public class RatingsCounterJava {
 			.collect(groupingBy(s -> s, counting()))
 			.forEach((x,y) -> System.out.println(x + " " + y));
 	}
+
 }
