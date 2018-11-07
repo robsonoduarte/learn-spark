@@ -2,3 +2,5 @@
 -----------------------
 
 In this repository we can see the sections of curse in the projects:
+
+* [Getting Started](https://github.com/robsonoduarte/learn-spark/tree/master/apache-spark-2-with-scala/spark-with-scala-getting-started)
