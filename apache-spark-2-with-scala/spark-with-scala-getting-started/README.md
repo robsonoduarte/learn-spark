@@ -1,4 +1,4 @@
 Section 1 - Getting Started
 -----------------------
 
-README IN CONSTRUCTION
+The first example how we can use the Spark to read, map and reduce one dataset.
