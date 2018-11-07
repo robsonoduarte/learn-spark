@@ -13,7 +13,7 @@ object RatingsCounter extends App {
     val sc = new SparkContext("local[*]", "RatingsCounter")
 
     // Load up each line of the ratings data into an RDD
-    val lines = sc.textFile("F:/spark-scala-course/ml-100k/u.data")
+    val lines = sc.textFile(getClass.getResource("/datasets/u.data").getPath)
 
     // Convert each line to a string, split it out by tabs, and extract the third field.
     // (The file format is userID, movieID, rating, timestamp)
