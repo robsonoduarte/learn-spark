@@ -1,6 +1,6 @@
 package br.com.mystudies.spark.scala
 
-object FlowControlScala {
+object ScalaFlowControl {
   // Flow control
 
   // If / else syntax
