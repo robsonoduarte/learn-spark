@@ -37,5 +37,33 @@ object ScalaFunctions {
   // This is really important!
 
 
+  // EXERCISE
+  // Strings have a built-in .toUpperCase method. For example, "foo".toUpperCase gives you back FOO.
+  // Write a function that converts a string to upper-case, and use that function of a few test strings.
+  // Then, do the same thing using a function literal instead of a separate, named function.
+
+
+
+	val f = (s: String) => s.toUpperCase      //> f  : String => String = br.com.mystudies.spark.scala.ScalaFunctions$$$Lambd
+                                                  //| a$12/985922955@5594a1b5
+
+
+	f("Scala")                                //> res3: String = SCALA
+	f("Java")                                 //> res4: String = JAVA
+
+
+
+	def z(s: String , f: String => String) = f(s)
+                                                  //> z: (s: String, f: String => String)String
+
+
+
+	z("Scala", f)                             //> res5: String = SCALA
+	z("Java", s => s.toUpperCase)             //> res6: String = JAVA
+	z("Groovy", _.toUpperCase )               //> res7: String = GROOVY
+
+
+
+
 
 }
