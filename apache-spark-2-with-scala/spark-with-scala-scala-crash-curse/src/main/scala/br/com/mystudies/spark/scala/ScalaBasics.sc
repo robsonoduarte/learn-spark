@@ -3,23 +3,23 @@ package br.com.mystudies.spark.scala
 object ScalaBasics {
 
   // VALUES are immutable constants. You can't change them once defined.
-  val hello  = "Hello!"                           //> hello  : String = Hello!
-  println(hello)                                  //> Hello!
+  val hello: String = "Hola!"                     //> hello  : String = Hola!
+  println(hello)                                  //> Hola!
 
-
- // Notice how Scala defines things backwards from other languages - you declare the
+  // Notice how Scala defines things backwards from other languages - you declare the
   // name, then the type.
 
   // VARIABLES are mutable
-  var helloThere = hello                          //> helloThere  : String = Hello!
+  var helloThere: String = hello                  //> helloThere  : String = Hola!
   helloThere = hello + " There!"
-  println(helloThere)                             //> Hello! There!
+  println(helloThere)                             //> Hola! There!
+
 
   // One key objective of functional programming is to use immutable objects as often as possible.
   // Try to use operations that transform immutable objects into a new immutable object.
   // For example, we could have done the same thing like this:
-  val immutableHelloThere = hello + "There!"      //> immutableHelloThere  : String = Hello!There!
-  println(immutableHelloThere)                    //> Hello!There!
+  val immutableHelloThere = hello + "There!"      //> immutableHelloThere  : String = Hola!There!
+  println(immutableHelloThere)                    //> Hola!There!
 
 
     // Some other types
