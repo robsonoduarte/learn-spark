@@ -21,14 +21,14 @@ object ScalaFlowControl {
   	case 2 => println("Two")
   	case 3 => println("Three")
   	case _ => println("Something else")
- }                                         //> Three
+ }                                                //> Three
 
 
 // For loops
 for (x <- 1 to 4) {
 	val squared = x * x
 	println(squared)
-}                                         //> 1
+}                                                 //> 1
                                                   //| 4
                                                   //| 9
                                                   //| 16
@@ -70,7 +70,7 @@ for (x <- 1 to 4) {
 
    {val x = 10; x + 20}                           //> res0: Int = 30
 
-   println({val x = 10; x + 20})            //> 30
+   println({val x = 10; x + 20})                  //> 30
 
 
   // EXERCISE
@@ -79,8 +79,9 @@ for (x <- 1 to 4) {
   // So, the result should be 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
 
 
-  var a = 0                                 //> a  : Int = 0
+  var a = 0                                       //> a  : Int = 0
   var b = 1                                       //> b  : Int = 1
+
 
   for ( x <- 0 to 10 ){
     println(a)
