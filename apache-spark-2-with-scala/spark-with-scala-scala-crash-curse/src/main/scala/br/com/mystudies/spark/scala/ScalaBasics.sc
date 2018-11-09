@@ -82,5 +82,5 @@ object ScalaBasics {
 	println(f"${3.14159265359}%3f")           //> 3,141593
 
 
-	// Teste rever by index
+
 }
