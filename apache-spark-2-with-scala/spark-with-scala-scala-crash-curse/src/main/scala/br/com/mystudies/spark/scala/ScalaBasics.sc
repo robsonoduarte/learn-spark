@@ -78,7 +78,9 @@ object ScalaBasics {
   // three decimal places of precision to the right.
   // Just write your code below here; any time you save the file it will automatically display the results!
 
+  // using Scala sugar sintax to do the exercise
 	println(f"${3.14159265359}%3f")           //> 3,141593
+
 
 
 }
