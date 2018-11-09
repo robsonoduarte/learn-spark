@@ -81,6 +81,4 @@ object ScalaBasics {
   // using Scala sugar sintax to do the exercise
 	println(f"${3.14159265359}%3f")           //> 3,141593
 
-	// 1 2 3 testing
-
 }
