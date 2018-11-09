@@ -56,7 +56,7 @@ object ScalaBasics {
   // Using regular expressions:
   val theUltimateAnswer: String = "To life, the universe, and everything is 42."
                                                   //> theUltimateAnswer  : String = To life, the universe, and everything is 42.
-                                                  //|
+                                                  //| 
   val pattern = """.* ([\d]+).*""".r              //> pattern  : scala.util.matching.Regex = .* ([\d]+).*
   val pattern(answerString) = theUltimateAnswer   //> answerString  : String = 42
   val answer = answerString.toInt                 //> answer  : Int = 42
@@ -81,6 +81,6 @@ object ScalaBasics {
   // using Scala sugar sintax to do the exercise
 	println(f"${3.14159265359}%3f")           //> 3,141593
 
-	// 1 2 3 testing
+
 
 }
