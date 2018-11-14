@@ -67,4 +67,6 @@ object ScalaFunctions {
 	// testing git rebase 2
 
 	// teste rebase
+
+	// testing rebase 2
 }
