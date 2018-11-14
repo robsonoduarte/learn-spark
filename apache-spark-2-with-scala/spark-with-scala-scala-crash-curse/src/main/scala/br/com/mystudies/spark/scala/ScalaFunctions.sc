@@ -63,4 +63,6 @@ object ScalaFunctions {
 	z("Groovy", _.toUpperCase )               //> res7: String = GROOVY
 
 
+	// testing git rebase
+
 }
