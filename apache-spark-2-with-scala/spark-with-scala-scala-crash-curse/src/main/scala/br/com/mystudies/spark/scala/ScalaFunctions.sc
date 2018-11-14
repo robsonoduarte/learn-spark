@@ -64,5 +64,6 @@ object ScalaFunctions {
 
 
 	// testing git merge 0.1.0
+	// testing git merge 0.2.0
 
 }
