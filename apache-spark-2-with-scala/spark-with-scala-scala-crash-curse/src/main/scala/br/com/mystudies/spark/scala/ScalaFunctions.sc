@@ -63,6 +63,6 @@ object ScalaFunctions {
 	z("Groovy", _.toUpperCase )               //> res7: String = GROOVY
 
 
-	// testing git merge 0.1.0
+
 
 }
