@@ -31,7 +31,7 @@ object MostPrecipitation extends App {
       .map(parseLine)
       .filter(x => x._3 == "PRCP")
       .map(x => (x._1, (x._2, x._4.toFloat)))
-      .reduceByKey( (x,y) => if(x._2 > y._2) (x._1, x._2) else (y._1, y._2))
+      .reduceByKey( (x,y) => if(x._2 > y._2) x else y)
       .foreach(result => {
            val station = result._1
            val date = result._2._1
