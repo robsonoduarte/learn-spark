@@ -14,13 +14,13 @@ import scala.math.min
 
 object MostPrecipitation extends App {
 
-    def parseLine(line:String)= {
-    val fields = line.split(",")
-    val stationID = fields(0)
-    val date = fields(1)
-    val entryType = fields(2)
-    val temperature = fields(3).toFloat * 0.1f * (9.0f / 5.0f) + 32.0f
-    (stationID, date, entryType, temperature)
+    def parseLine(line:String)={
+      val fields = line.split(",")
+      val stationID = fields(0)
+      val date = fields(1)
+      val entryType = fields(2)
+      val temperature = fields(3).toFloat * 0.1f * (9.0f / 5.0f) + 32.0f
+      (stationID, date, entryType, temperature)
   }
 
 
