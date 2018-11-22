@@ -8,11 +8,8 @@ object CommonsWords extends App {
 
     val commonsWorlds = List("you", "of", "a", "the", "your", "to")
 
-
-      // Set the log level to only print errors
     Logger.getLogger("org").setLevel(Level.ERROR)
 
-     // Create a SparkContext using the local machine
     new SparkContext("local", "WordCountBetterSorted")
       .textFile(getClass.getResource("/datasets/book.txt").getPath)
       .flatMap(_.split("\\W+"))
