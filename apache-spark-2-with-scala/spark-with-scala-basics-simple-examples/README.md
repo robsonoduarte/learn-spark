@@ -5,5 +5,6 @@ Section 3 - Spark Basics and Simple Examples
 
  * [Key/Value RDD's](https://github.com/robsonoduarte/learn-spark/blob/master/apache-spark-2-with-scala/spark-with-scala-basics-simple-examples/src/main/scala/br/com/mystudies/spark/scala/FriendsByAge.scala)
  * [Filtering RDD's](https://github.com/robsonoduarte/learn-spark/blob/master/apache-spark-2-with-scala/spark-with-scala-basics-simple-examples/src/main/scala/br/com/mystudies/spark/scala/MinTemperatures.scala)
+  * [Flatmap with Regex  RDD's](https://github.com/robsonoduarte/learn-spark/blob/master/apache-spark-2-with-scala/spark-with-scala-basics-simple-examples/src/main/scala/br/com/mystudies/spark/scala/WordCountBetterSorted.scala)
 
 
