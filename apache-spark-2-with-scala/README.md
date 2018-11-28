@@ -6,3 +6,5 @@
 * [Getting Started](https://github.com/robsonoduarte/learn-spark/tree/master/apache-spark-2-with-scala/spark-with-scala-getting-started)
 * [Scala Crash Course](https://github.com/robsonoduarte/learn-spark/tree/master/apache-spark-2-with-scala/spark-with-scala-scala-crash-curse)
 * [Spark Basics and Simple Examples](https://github.com/robsonoduarte/learn-spark/tree/master/apache-spark-2-with-scala/spark-with-scala-basics-simple-examples)
+* [Spark Advanced Examples](https://github.com/robsonoduarte/learn-spark/tree/master/apache-spark-2-with-scala/spark-with-scala-basics-advanced-examples)
+
