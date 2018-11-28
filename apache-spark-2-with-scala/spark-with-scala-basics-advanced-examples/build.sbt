@@ -1,4 +1,4 @@
-name := "spark-with-scala-basics-simple-examples"
+name := "spark-with-scala-basics-advanced-examples"
 version := "0.1.0"
 scalaVersion := "2.11.8"
 organization := "br.com.mystudies"
